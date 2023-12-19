@@ -1,0 +1,3 @@
+python train.py --gpu_id 1 --dataset german_credit --training_mode clean --epoch 200 --batch_size 64
+python train.py --gpu_id 1 --dataset german_credit --training_mode local_adv --eps_train 0.3 --eps_test 0.2 --epoch 200 --batch_size 1024
+python train.py --gpu_id 1 --dataset german_credit --training_mode global_adv --eps_train 0.3 --eps_test 0.2 --global_robustness_output_bound 0.5 --epoch 200 --batch_size 1024

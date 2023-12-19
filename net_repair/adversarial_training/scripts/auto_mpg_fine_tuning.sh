@@ -1,0 +1,1 @@
+python train.py --gpu_id 3 --dataset auto_mpg --training_mode ST-AT-G --eps_train 0.05 --eps_test 0.05 --global_robustness_output_bound 1.5 --epoch 100 --batch_size 32 --preload_netname 20220814-162352/model_auto_mpg_epoch_100_batch_32_lr_0.001 --learning_rate 0.0001
